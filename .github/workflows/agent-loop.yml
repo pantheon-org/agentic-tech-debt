@@ -27,7 +27,7 @@ on:
     types: [completed]
   schedule:
     # Dispatcher + sweep cadence.
-    - cron: '*/15 * * * *'
+    # - cron: '*/15 * * * *'
   # Manual tick: runs the same dispatcher + sweep pass as the cron.
   workflow_dispatch:
 
